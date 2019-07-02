@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.files = Dir['lib/**/*']
 
   gem.add_dependency 'oauth'
-  gem.add_dependency 'roxml'
+  gem.add_dependency 'roxml', '>= 3.3.1', '< 4.1'
   gem.add_dependency 'nokogiri' # leave in promiscuous mode so as to not conflict with quickeebooks gem
   gem.add_dependency 'activemodel'
 
